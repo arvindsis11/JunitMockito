@@ -21,4 +21,9 @@ public class TodoServiceImpl implements TodoService {
 		return names;
 	}
 
+	@Override
+	public int square(int number)  {
+		return number * number;
+	}
+
 }
